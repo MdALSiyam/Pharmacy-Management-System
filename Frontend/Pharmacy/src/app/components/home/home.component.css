@@ -1,0 +1,21 @@
+/* Custom styles for home.component.css */
+
+.custom-card-hover {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.custom-card-hover:hover {
+  transform: translateY(-8px); /* Lifts the card up */
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2) !important; /* Creates a more pronounced shadow */
+}
+
+/* Optional: You can fine-tune other existing styles if needed */
+.card-body .card-title,
+.card-body .card-text {
+  text-align: center;
+}
+
+/* If you want to subtly darken the muted text more, uncomment this */
+/* .card-text {
+  color: #5a6268;
+} */

@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\controllers\\medicinelossescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\controllers\\medicinelossescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\controllers\\medicineprofitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\controllers\\medicineprofitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\controllers\\medicinesalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\controllers\\medicinesalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\controllers\\medicinepurchasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\controllers\\medicinepurchasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\controllers\\medicinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\controllers\\medicinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\dtos\\medicinelossdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\dtos\\medicinelossdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\dtos\\medicineprofitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\dtos\\medicineprofitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\dtos\\medicinesaledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\dtos\\medicinesaledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\dtos\\medicinepurchasedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\dtos\\medicinepurchasedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\dtos\\medicinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\dtos\\medicinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\models\\medicineloss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\models\\medicineloss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\models\\medicineprofit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\models\\medicineprofit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\models\\medicinesale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\models\\medicinesale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\models\\medicinepurchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\models\\medicinepurchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\models\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\models\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|e:\\github\\pharmacy-management-system\\backend\\final_project\\final_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D0C733-8A01-46E8-ACDF-DBEE46E83D12}|Final_Project\\Final_Project.csproj|solutionrelative:final_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MedicinePurchasesController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Controllers\\MedicinePurchasesController.cs",
+              "RelativeDocumentMoniker": "Final_Project\\Controllers\\MedicinePurchasesController.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Controllers\\MedicinePurchasesController.cs",
+              "RelativeToolTip": "Final_Project\\Controllers\\MedicinePurchasesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:39:15.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MedicineSalesController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Controllers\\MedicineSalesController.cs",
+              "RelativeDocumentMoniker": "Final_Project\\Controllers\\MedicineSalesController.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Controllers\\MedicineSalesController.cs",
+              "RelativeToolTip": "Final_Project\\Controllers\\MedicineSalesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:42:59.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MedicineProfitsController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Controllers\\MedicineProfitsController.cs",
+              "RelativeDocumentMoniker": "Final_Project\\Controllers\\MedicineProfitsController.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Controllers\\MedicineProfitsController.cs",
+              "RelativeToolTip": "Final_Project\\Controllers\\MedicineProfitsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T04:00:50.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MedicineLossesController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Controllers\\MedicineLossesController.cs",
+              "RelativeDocumentMoniker": "Final_Project\\Controllers\\MedicineLossesController.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Controllers\\MedicineLossesController.cs",
+              "RelativeToolTip": "Final_Project\\Controllers\\MedicineLossesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T04:02:14.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MedicinesController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Controllers\\MedicinesController.cs",
+              "RelativeDocumentMoniker": "Final_Project\\Controllers\\MedicinesController.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Controllers\\MedicinesController.cs",
+              "RelativeToolTip": "Final_Project\\Controllers\\MedicinesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:38:04.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MedicineLossDTO.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\DTOs\\MedicineLossDTO.cs",
+              "RelativeDocumentMoniker": "Final_Project\\DTOs\\MedicineLossDTO.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\DTOs\\MedicineLossDTO.cs",
+              "RelativeToolTip": "Final_Project\\DTOs\\MedicineLossDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T03:59:47.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MedicineProfitDTO.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\DTOs\\MedicineProfitDTO.cs",
+              "RelativeDocumentMoniker": "Final_Project\\DTOs\\MedicineProfitDTO.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\DTOs\\MedicineProfitDTO.cs",
+              "RelativeToolTip": "Final_Project\\DTOs\\MedicineProfitDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T03:58:49.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MedicineSaleDTO.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\DTOs\\MedicineSaleDTO.cs",
+              "RelativeDocumentMoniker": "Final_Project\\DTOs\\MedicineSaleDTO.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\DTOs\\MedicineSaleDTO.cs",
+              "RelativeToolTip": "Final_Project\\DTOs\\MedicineSaleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:36:42.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MedicinePurchaseDTO.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\DTOs\\MedicinePurchaseDTO.cs",
+              "RelativeDocumentMoniker": "Final_Project\\DTOs\\MedicinePurchaseDTO.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\DTOs\\MedicinePurchaseDTO.cs",
+              "RelativeToolTip": "Final_Project\\DTOs\\MedicinePurchaseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:35:13.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\appsettings.json",
+              "RelativeDocumentMoniker": "Final_Project\\appsettings.json",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\appsettings.json",
+              "RelativeToolTip": "Final_Project\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-29T03:35:30.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MedicineDTO.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\DTOs\\MedicineDTO.cs",
+              "RelativeDocumentMoniker": "Final_Project\\DTOs\\MedicineDTO.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\DTOs\\MedicineDTO.cs",
+              "RelativeToolTip": "Final_Project\\DTOs\\MedicineDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:34:17.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Final_Project\\Models\\AppDbContext.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Final_Project\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:32:21.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MedicineLoss.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Models\\MedicineLoss.cs",
+              "RelativeDocumentMoniker": "Final_Project\\Models\\MedicineLoss.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Models\\MedicineLoss.cs",
+              "RelativeToolTip": "Final_Project\\Models\\MedicineLoss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T13:59:24.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MedicineProfit.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Models\\MedicineProfit.cs",
+              "RelativeDocumentMoniker": "Final_Project\\Models\\MedicineProfit.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Models\\MedicineProfit.cs",
+              "RelativeToolTip": "Final_Project\\Models\\MedicineProfit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T13:58:58.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MedicineSale.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Models\\MedicineSale.cs",
+              "RelativeDocumentMoniker": "Final_Project\\Models\\MedicineSale.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Models\\MedicineSale.cs",
+              "RelativeToolTip": "Final_Project\\Models\\MedicineSale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T13:58:01.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MedicinePurchase.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Models\\MedicinePurchase.cs",
+              "RelativeDocumentMoniker": "Final_Project\\Models\\MedicinePurchase.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Models\\MedicinePurchase.cs",
+              "RelativeToolTip": "Final_Project\\Models\\MedicinePurchase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T04:56:22.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Medicine.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Models\\Medicine.cs",
+              "RelativeDocumentMoniker": "Final_Project\\Models\\Medicine.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Models\\Medicine.cs",
+              "RelativeToolTip": "Final_Project\\Models\\Medicine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T04:54:07.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Program.cs",
+              "RelativeDocumentMoniker": "Final_Project\\Program.cs",
+              "ToolTip": "E:\\GitHub\\Pharmacy-Management-System\\Backend\\Final_Project\\Final_Project\\Program.cs",
+              "RelativeToolTip": "Final_Project\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:05:10.347Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

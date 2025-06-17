@@ -1,0 +1,1490 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Final_Project",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/MedicineLosses": {
+      "get": {
+        "tags": [
+          "MedicineLosses"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicineLossDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicineLossDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicineLossDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "MedicineLosses"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineLossDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineLossDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineLossDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineLossDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineLossDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineLossDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MedicineLosses/{id}": {
+      "get": {
+        "tags": [
+          "MedicineLosses"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineLossDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineLossDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineLossDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "MedicineLosses"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMedicineLossDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMedicineLossDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMedicineLossDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "MedicineLosses"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MedicineProfits": {
+      "get": {
+        "tags": [
+          "MedicineProfits"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicineProfitDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicineProfitDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicineProfitDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "MedicineProfits"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineProfitDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineProfitDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineProfitDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineProfitDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineProfitDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineProfitDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MedicineProfits/{id}": {
+      "get": {
+        "tags": [
+          "MedicineProfits"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineProfitDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineProfitDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineProfitDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "MedicineProfits"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMedicineProfitDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMedicineProfitDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMedicineProfitDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "MedicineProfits"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MedicinePurchases": {
+      "get": {
+        "tags": [
+          "MedicinePurchases"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicinePurchaseDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicinePurchaseDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicinePurchaseDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "MedicinePurchases"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicinePurchaseDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicinePurchaseDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicinePurchaseDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicinePurchaseDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicinePurchaseDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicinePurchaseDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MedicinePurchases/{id}": {
+      "get": {
+        "tags": [
+          "MedicinePurchases"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicinePurchaseDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicinePurchaseDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicinePurchaseDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "MedicinePurchases"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMedicinePurchaseDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMedicinePurchaseDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMedicinePurchaseDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "MedicinePurchases"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Medicines": {
+      "get": {
+        "tags": [
+          "Medicines"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicineDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicineDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicineDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Medicines"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Medicines/{id}": {
+      "get": {
+        "tags": [
+          "Medicines"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Medicines"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMedicineDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMedicineDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMedicineDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Medicines"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MedicineSales": {
+      "get": {
+        "tags": [
+          "MedicineSales"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicineSaleDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicineSaleDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicineSaleDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "MedicineSales"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineSaleDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineSaleDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineSaleDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineSaleDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineSaleDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineSaleDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MedicineSales/{id}": {
+      "get": {
+        "tags": [
+          "MedicineSales"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineSaleDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineSaleDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicineSaleDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "MedicineSales"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMedicineSaleDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMedicineSaleDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMedicineSaleDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "MedicineSales"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CreateMedicineDTO": {
+        "type": "object",
+        "properties": {
+          "medicineType": {
+            "type": "string",
+            "nullable": true
+          },
+          "medicineName": {
+            "type": "string",
+            "nullable": true
+          },
+          "genericName": {
+            "type": "string",
+            "nullable": true
+          },
+          "company": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateMedicineLossDTO": {
+        "type": "object",
+        "properties": {
+          "medicinePurchaseId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lossDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "quantityLoss": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lossAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalLoss": {
+            "type": "number",
+            "format": "double"
+          },
+          "lossReason": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateMedicineProfitDTO": {
+        "type": "object",
+        "properties": {
+          "medicineSaleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "profitDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "profitAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "quantityProfit": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalProfit": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateMedicinePurchaseDTO": {
+        "type": "object",
+        "properties": {
+          "medicineId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "purchaseDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "purchasePrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "quantityPurchased": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vat": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "supplier": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateMedicineSaleDTO": {
+        "type": "object",
+        "properties": {
+          "medicineId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "saleDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "salePrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "quantitySold": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "discount": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "customerName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MedicineDTO": {
+        "type": "object",
+        "properties": {
+          "medicineId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "medicineType": {
+            "type": "string",
+            "nullable": true
+          },
+          "medicineName": {
+            "type": "string",
+            "nullable": true
+          },
+          "genericName": {
+            "type": "string",
+            "nullable": true
+          },
+          "company": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MedicineLossDTO": {
+        "type": "object",
+        "properties": {
+          "medicineLossId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "medicinePurchaseId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lossDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "quantityLoss": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lossAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalLoss": {
+            "type": "number",
+            "format": "double"
+          },
+          "lossReason": {
+            "type": "string",
+            "nullable": true
+          },
+          "medicinePurchase": {
+            "$ref": "#/components/schemas/MedicinePurchaseDTO"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MedicineProfitDTO": {
+        "type": "object",
+        "properties": {
+          "medicineProfitId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "medicineSaleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "profitDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "profitAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "quantityProfit": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalProfit": {
+            "type": "number",
+            "format": "double"
+          },
+          "medicineSale": {
+            "$ref": "#/components/schemas/MedicineSaleDTO"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MedicinePurchaseDTO": {
+        "type": "object",
+        "properties": {
+          "medicinePurchaseId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "medicineId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "purchaseDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "purchasePrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "quantityPurchased": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vat": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "supplier": {
+            "type": "string",
+            "nullable": true
+          },
+          "medicine": {
+            "$ref": "#/components/schemas/MedicineDTO"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MedicineSaleDTO": {
+        "type": "object",
+        "properties": {
+          "medicineSaleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "medicineId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "saleDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "salePrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "quantitySold": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "discount": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "customerName": {
+            "type": "string",
+            "nullable": true
+          },
+          "medicine": {
+            "$ref": "#/components/schemas/MedicineDTO"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateMedicineDTO": {
+        "type": "object",
+        "properties": {
+          "medicineId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "medicineType": {
+            "type": "string",
+            "nullable": true
+          },
+          "medicineName": {
+            "type": "string",
+            "nullable": true
+          },
+          "genericName": {
+            "type": "string",
+            "nullable": true
+          },
+          "company": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateMedicineLossDTO": {
+        "type": "object",
+        "properties": {
+          "medicineLossId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "medicinePurchaseId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lossDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "quantityLoss": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lossAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalLoss": {
+            "type": "number",
+            "format": "double"
+          },
+          "lossReason": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateMedicineProfitDTO": {
+        "type": "object",
+        "properties": {
+          "medicineProfitId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "medicineSaleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "profitDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "profitAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "quantityProfit": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalProfit": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateMedicinePurchaseDTO": {
+        "type": "object",
+        "properties": {
+          "medicinePurchaseId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "medicineId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "purchaseDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "purchasePrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "quantityPurchased": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vat": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "supplier": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateMedicineSaleDTO": {
+        "type": "object",
+        "properties": {
+          "medicineSaleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "medicineId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "saleDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "salePrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "quantitySold": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "discount": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "customerName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

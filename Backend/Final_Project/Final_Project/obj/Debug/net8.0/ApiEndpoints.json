@@ -1,0 +1,568 @@
+[
+  {
+    "ContainingType": "Final_Project.Controllers.MedicineLossesController",
+    "Method": "GetMedicineLosses",
+    "RelativePath": "api/MedicineLosses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Final_Project.DTOs.MedicineLossDTO, Final_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicineLossesController",
+    "Method": "PostMedicineLoss",
+    "RelativePath": "api/MedicineLosses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createMedicineLossDTO",
+        "Type": "Final_Project.DTOs.CreateMedicineLossDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Final_Project.DTOs.MedicineLossDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicineLossesController",
+    "Method": "GetMedicineLoss",
+    "RelativePath": "api/MedicineLosses/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Final_Project.DTOs.MedicineLossDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicineLossesController",
+    "Method": "PutMedicineLoss",
+    "RelativePath": "api/MedicineLosses/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateMedicineLossDTO",
+        "Type": "Final_Project.DTOs.UpdateMedicineLossDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicineLossesController",
+    "Method": "DeleteMedicineLoss",
+    "RelativePath": "api/MedicineLosses/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicineProfitsController",
+    "Method": "GetMedicineProfits",
+    "RelativePath": "api/MedicineProfits",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Final_Project.DTOs.MedicineProfitDTO, Final_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicineProfitsController",
+    "Method": "PostMedicineProfit",
+    "RelativePath": "api/MedicineProfits",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createMedicineProfitDTO",
+        "Type": "Final_Project.DTOs.CreateMedicineProfitDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Final_Project.DTOs.MedicineProfitDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicineProfitsController",
+    "Method": "GetMedicineProfit",
+    "RelativePath": "api/MedicineProfits/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Final_Project.DTOs.MedicineProfitDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicineProfitsController",
+    "Method": "PutMedicineProfit",
+    "RelativePath": "api/MedicineProfits/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateMedicineProfitDTO",
+        "Type": "Final_Project.DTOs.UpdateMedicineProfitDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicineProfitsController",
+    "Method": "DeleteMedicineProfit",
+    "RelativePath": "api/MedicineProfits/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicinePurchasesController",
+    "Method": "GetMedicinePurchases",
+    "RelativePath": "api/MedicinePurchases",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Final_Project.DTOs.MedicinePurchaseDTO, Final_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicinePurchasesController",
+    "Method": "PostMedicinePurchase",
+    "RelativePath": "api/MedicinePurchases",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createMedicinePurchaseDTO",
+        "Type": "Final_Project.DTOs.CreateMedicinePurchaseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Final_Project.DTOs.MedicinePurchaseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicinePurchasesController",
+    "Method": "GetMedicinePurchase",
+    "RelativePath": "api/MedicinePurchases/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Final_Project.DTOs.MedicinePurchaseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicinePurchasesController",
+    "Method": "PutMedicinePurchase",
+    "RelativePath": "api/MedicinePurchases/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateMedicinePurchaseDTO",
+        "Type": "Final_Project.DTOs.UpdateMedicinePurchaseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicinePurchasesController",
+    "Method": "DeleteMedicinePurchase",
+    "RelativePath": "api/MedicinePurchases/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicinesController",
+    "Method": "GetMedicines",
+    "RelativePath": "api/Medicines",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Final_Project.DTOs.MedicineDTO, Final_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicinesController",
+    "Method": "PostMedicine",
+    "RelativePath": "api/Medicines",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createMedicineDTO",
+        "Type": "Final_Project.DTOs.CreateMedicineDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Final_Project.DTOs.MedicineDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicinesController",
+    "Method": "GetMedicine",
+    "RelativePath": "api/Medicines/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Final_Project.DTOs.MedicineDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicinesController",
+    "Method": "PutMedicine",
+    "RelativePath": "api/Medicines/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateMedicineDTO",
+        "Type": "Final_Project.DTOs.UpdateMedicineDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicinesController",
+    "Method": "DeleteMedicine",
+    "RelativePath": "api/Medicines/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicineSalesController",
+    "Method": "GetMedicineSales",
+    "RelativePath": "api/MedicineSales",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Final_Project.DTOs.MedicineSaleDTO, Final_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicineSalesController",
+    "Method": "PostMedicineSale",
+    "RelativePath": "api/MedicineSales",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createMedicineSaleDTO",
+        "Type": "Final_Project.DTOs.CreateMedicineSaleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Final_Project.DTOs.MedicineSaleDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicineSalesController",
+    "Method": "GetMedicineSale",
+    "RelativePath": "api/MedicineSales/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Final_Project.DTOs.MedicineSaleDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicineSalesController",
+    "Method": "PutMedicineSale",
+    "RelativePath": "api/MedicineSales/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateMedicineSaleDTO",
+        "Type": "Final_Project.DTOs.UpdateMedicineSaleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.MedicineSalesController",
+    "Method": "DeleteMedicineSale",
+    "RelativePath": "api/MedicineSales/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Project.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Final_Project.WeatherForecast, Final_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
