@@ -53,7 +53,7 @@ This section outlines the steps to set up and run the Pharmacy Management System
         ```json
         {
           "ConnectionStrings": {
-            "DefaultConnection": "Server=YourServerName;Database=PharmacyDB;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"
+            "con": "Server=YourServerName;Database=PharmacyDB;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"
           },
         }
         ```
