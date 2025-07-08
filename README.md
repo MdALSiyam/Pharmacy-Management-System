@@ -1,6 +1,6 @@
 # Pharmacy Management System
 
-A scalable Pharmacy Management System designed to streamline pharmacy operations, covering **inventory management, purchases, sales, profit/loss tracking**, and **automated financial reporting**.
+A scalable Pharmacy Management System designed to streamline pharmacy operations, covering **inventory management, purchases, sales, profits & losses tracking**, and **automated financial reporting**.
 
 ## Key Features:
 
@@ -26,7 +26,7 @@ This section outlines the steps to set up and run the Pharmacy Management System
 * [.NET SDK 8.0](https://dotnet.microsoft.com/download/dotnet/8.0)
 * [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) (for Backend API)
 * [Node.js](https://nodejs.org/en/download/) (LTS version recommended)
-* [Angular CLI](https://angular.io/cli) (Install globally: `npm install -g @angular/cli`)
+* [Angular CLI](https://angular.io/cli) (`npm install -g @angular/cli`)
 * [Visual Studio Code](https://code.visualstudio.com/) (for Frontend)
 
 ### Cloning the Repository
@@ -43,7 +43,7 @@ This section outlines the steps to set up and run the Pharmacy Management System
 ### Backend API Setup (.NET 8.0)
 
 1.  **Open in Visual Studio 2022:**
-    * Navigate to the `Backend/Final_Project` folder.
+    * Navigate to the `Backend\Final_Project` folder.
     * Open the `.sln` file in Visual Studio 2022.
 
 2.  **Configure Database Connection:**
@@ -76,13 +76,17 @@ This section outlines the steps to set up and run the Pharmacy Management System
         ```bash
         cd Pharmacy-Management-System\Frontend\Pharmacy
         ```
+    * Open in VS Code (Optional but Recommended):
+        ```bash
+        code .
+        ```
 
 2.  **Run the Frontend:**
     * Ensure all necessary Node.js packages are installed (they should be part of the repository if committed, otherwise run `npm install` if you encounter errors).
     * Run the Angular development server:
 
         ```bash
-        ng serve --open
+        ng serve
         ```
     * This command will compile the Angular application and open it in your default web browser (usually at `http://localhost:4200/`).
 
