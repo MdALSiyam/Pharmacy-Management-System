@@ -1,33 +1,33 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { CreateMedicinePurchaseDTO, MedicinePurchaseDTO, UpdateMedicinePurchaseDTO } from '../dtos/medicine-purchase-dto';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MedicinePurchaseService {
-  private apiUrl = 'http://localhost:5190/api/MedicinePurchases';  //  Replace with your actual API endpoint
+  private apiUrl = 'http://localhost:5190/api/MedicinePurchases';  // Later backend deploy korle ekhane live URL dite hobe
 
   constructor(private http: HttpClient) {}
 
   getAll(): Observable<MedicinePurchaseDTO[]> {
-    return this.http.get<MedicinePurchaseDTO[]>(this.apiUrl);
+    return of([]);
   }
 
   getById(id: number): Observable<MedicinePurchaseDTO> {
-    return this.http.get<MedicinePurchaseDTO>(`${this.apiUrl}/${id}`);
+    return of({} as MedicinePurchaseDTO);
   }
 
   create(medicinePurchase: CreateMedicinePurchaseDTO): Observable<MedicinePurchaseDTO> {
-    return this.http.post<MedicinePurchaseDTO>(this.apiUrl, medicinePurchase);
+    return of(medicinePurchase as unknown as MedicinePurchaseDTO);
   }
 
-  update(id: number, medicinePurchase: UpdateMedicinePurchaseDTO): Observable<MedicinePurchaseDTO> {
-    return this.http.put<MedicinePurchaseDTO>(`${this.apiUrl}/${id}`, medicinePurchase);
+  update(id: number, medicinePurchase: UpdatePurchaseMedicineDTO): Observable<MedicinePurchaseDTO> {
+    return of(medicinePurchase as unknown as MedicinePurchaseDTO);
   }
 
   delete(id: number): Observable<void> {
-    return this.http.delete<void>(`<span class="math-inline">\{this\.apiUrl\}/</span>{id}`);
+    return of(void 0);
   }
 }
