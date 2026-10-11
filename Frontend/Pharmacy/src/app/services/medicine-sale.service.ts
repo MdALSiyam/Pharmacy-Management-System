@@ -1,33 +1,33 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { CreateMedicineSaleDTO, MedicineSaleDTO, UpdateMedicineSaleDTO } from '../dtos/medicine-sale-dto';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MedicineSaleService {
-  private apiUrl = 'http://localhost:5190/api/MedicineSales';  //  Replace with your actual API endpoint
+  private apiUrl = 'http://localhost:5190/api/MedicineSales';  // Later backend deploy korle ekhane live URL dite hobe
 
   constructor(private http: HttpClient) {}
 
   getAll(): Observable<MedicineSaleDTO[]> {
-    return this.http.get<MedicineSaleDTO[]>(this.apiUrl);
+    return of([]);
   }
 
   getById(id: number): Observable<MedicineSaleDTO> {
-    return this.http.get<MedicineSaleDTO>(`${this.apiUrl}/${id}`);
+    return of({} as MedicineSaleDTO);
   }
 
   create(medicineSale: CreateMedicineSaleDTO): Observable<MedicineSaleDTO> {
-    return this.http.post<MedicineSaleDTO>(this.apiUrl, medicineSale);
+    return of(medicineSale as unknown as MedicineSaleDTO);
   }
 
   update(id: number, medicineSale: UpdateMedicineSaleDTO): Observable<MedicineSaleDTO> {
-    return this.http.put<MedicineSaleDTO>(`${this.apiUrl}/${id}`, medicineSale);
+    return of(medicineSale as unknown as MedicineSaleDTO);
   }
 
   delete(id: number): Observable<void> {
-    return this.http.delete<void>(`<span class="math-inline">\{this\.apiUrl\}/</span>{id}`);
+    return of(void 0);
   }
 }
