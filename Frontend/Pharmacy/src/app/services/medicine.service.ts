@@ -1,33 +1,38 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { CreateMedicineDTO, MedicineDTO, UpdateMedicineDTO } from '../dtos/medicine-dto';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MedicineService {
-  private apiUrl = 'http://localhost:5190/api/Medicines';  //  Replace with your actual API endpoint
+  private apiUrl = 'http://localhost:5190/api/Medicines';  // Later backend deploy korle ekhane live URL dite hobe
 
   constructor(private http: HttpClient) {}
 
   getAll(): Observable<MedicineDTO[]> {
-    return this.http.get<MedicineDTO[]>(this.apiUrl);
+    // Temporary: Real API call bad diye faka array return korbe
+    return of([]);
   }
 
   getById(id: number): Observable<MedicineDTO> {
-    return this.http.get<MedicineDTO>(`${this.apiUrl}/${id}`);
+    // Temporary: Faka object return korbe
+    return of({} as MedicineDTO);
   }
 
   create(medicine: CreateMedicineDTO): Observable<MedicineDTO> {
-    return this.http.post<MedicineDTO>(this.apiUrl, medicine);
+    // Temporary: Input data-i back korbe jeno UI te error na ashe
+    return of(medicine as unknown as MedicineDTO);
   }
 
   update(id: number, medicine: UpdateMedicineDTO): Observable<MedicineDTO> {
-    return this.http.put<MedicineDTO>(`${this.apiUrl}/${id}`, medicine);
+    // Temporary
+    return of(medicine as unknown as MedicineDTO);
   }
 
   delete(id: number): Observable<void> {
-    return this.http.delete<void>(`<span class="math-inline">\{this\.apiUrl\}/</span>{id}`);
+    // Temporary
+    return of(void 0);
   }
 }
